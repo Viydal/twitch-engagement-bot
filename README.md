@@ -8,7 +8,7 @@ You can use this bot within any Twitch channel. The period in which the bot wait
 ## Features
 - Records short clips (default: 15 seconds) from any Twitch stream.
 - Transcribes audio using OpenAI Whisper.
-- Produces output via Google Gemini (Gemini 1.5 Flash model).
+- Produces output via Google Gemini (Gemini 2.0 Flash model).
 - Identity of engagement bot can be customised to meet your own desire.
 
 ## Notes
