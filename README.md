@@ -19,8 +19,12 @@ You can use this bot within any Twitch channel. The period in which the bot wait
 # Usage
 
 ## Requirements
-To download the required libraries:
-pip install -r requirements.txt
+To download the required python libraries:
+- pip install -r requirements.txt
+
+To download the required system tools:
+- sudo apt install ffmpeg
+- sudo apt install streamlink
 
 ## Steps
 **1. Visit https://twitchtokengenerator.com/ and generate a token that has both chat:read and chat:editpermissions.**
