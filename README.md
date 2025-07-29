@@ -15,6 +15,7 @@ You can use this bot within any Twitch channel. The period in which the bot wait
 - If the bot fails to transcribe a segment of audio of sufficient the length, it will assume nothing was said and repeat the loop.
 - Recorded audio will temporarily be saved within the audio.mp3 file.
 - Transcribed audio will temporarily be saved within the transcript.txt file.
+- It is recommended that you create a new twitch account to host the engagement bot.
 
 # Usage
 
@@ -27,7 +28,17 @@ To download the required system tools:
 - sudo apt install streamlink
 
 ## Steps
-**1. Visit https://twitchtokengenerator.com/ and generate a token that has both chat:read and chat:editpermissions.**
+1. Generate a Twitch Oauth Token for your bot account.
+- Go to https://twitchtokengenerator.com/
+- Enable _chat:read_ and _chat:edit_
+- Generate token
+
+2. Generate a Google API Key
+- Go to https://aistudio.google.com/app/apikey
+- Set model to Gemini-2.0-Flash
+- Generate token
+
+2. Edit the file and insert the relevant information to the beginning of the script.
 
 **2. Set the token as an environment variable with name "TWITCH_OAUTH_TOKEN" and value "oauth:[token]".**
 
