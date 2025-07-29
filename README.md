@@ -28,18 +28,14 @@ To download the required system tools:
 - sudo apt install streamlink
 
 ## Steps
-1. Generate a Twitch Oauth Token for your bot account.
+**1. Generate a Twitch Oauth Token for your bot account.**
 - Go to https://twitchtokengenerator.com/
 - Enable _chat:read_ and _chat:edit_
 - Generate token
 
-2. Generate a Google API Key
+**2. Generate a Google API Key**
 - Go to https://aistudio.google.com/app/apikey
 - Set model to Gemini-2.0-Flash
 - Generate token
 
-2. Edit the file and insert the relevant information to the beginning of the script.
-
-**2. Set the token as an environment variable with name "TWITCH_OAUTH_TOKEN" and value "oauth:[token]".**
-
-**3. Change [NICK] and [CHANNEL] variables to _your_ channel name.**
+**3. Edit the file and insert the relevant information to the beginning of the script.**
