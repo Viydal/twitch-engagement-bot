@@ -20,7 +20,7 @@ You can use this bot within any Twitch channel. The period in which the bot wait
 
 ## Requirements
 To download the required libraries:
--pip install -r requirements.txt
+pip install -r requirements.txt
 
 ## Steps
 **1. Visit https://twitchtokengenerator.com/ and generate a token that has both chat:read and chat:editpermissions.**
